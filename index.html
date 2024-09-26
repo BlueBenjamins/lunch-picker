@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lunch Picker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Back Half Days Lunch Picker</h2>
+        <div>
+            <input type="text" id="itemInput" placeholder="Enter lunch item">
+            <button onclick="addItem()">Add Item</button>
+        </div>
+        <h3>List of Places to Eat</h3>
+        <ul id="itemList"></ul>
+        <button onclick="pickItem()">Pick Random Item</button>
+        <div id="result"></div>
+        <h3>Previously Picked Places:</h3>
+        <ul id="pickedList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
